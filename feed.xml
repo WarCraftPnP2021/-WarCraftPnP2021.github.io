@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="/l1nc0ln/feed.xml" rel="self" type="application/atom+xml" /><link href="/l1nc0ln/" rel="alternate" type="text/html" /><updated>2022-12-20T21:33:14+00:00</updated><id>/l1nc0ln/feed.xml</id><title type="html">WOW DSA Blog</title><subtitle>Testing setup for a blog for a friend of mine</subtitle><author><name>L1nc0ln</name></author><entry><title type="html">Shaun Half-Dead</title><link href="/l1nc0ln/characters/2022/12/11/Character-1.html" rel="alternate" type="text/html" title="Shaun Half-Dead" /><published>2022-12-11T00:00:00+00:00</published><updated>2022-12-11T00:00:00+00:00</updated><id>/l1nc0ln/characters/2022/12/11/Character-1</id><content type="html" xml:base="/l1nc0ln/characters/2022/12/11/Character-1.html"><![CDATA[<h2 id="character-history">Character history</h2>
+<p>asdf test some text here</p>
+
+<h2 id="stats">Stats</h2>
+<p>Mage <br /></p>
+
+<table>
+<thead>
+  <tr>
+    <th class="th-mu">MU</th>
+    <th class="th-kl">KL</th>
+    <th class="th-in">IN</th>
+    <th class="th-ch">CH</th>
+    <th class="th-ff">FF</th>
+    <th class="th-ge">GE</th>
+    <th class="th-ko">KO</th>
+    <th class="th-kk">KK</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td style="text-align: center">11</td>
+    <td style="text-align: center">13</td>
+    <td style="text-align: center">13</td>
+    <td style="text-align: center">12</td>
+    <td style="text-align: center">11</td>
+    <td style="text-align: center">11</td>
+    <td style="text-align: center">10</td>
+    <td style="text-align: center">11</td>
+  </tr>
+</tbody>
+</table>
+
+<p>Level 5 Fireball <br />
+Level 2 Combustion <br /></p>]]></content><author><name>L1nc0ln</name></author><category term="characters" /><category term="example" /><category term="character" /><summary type="html"><![CDATA[Character history asdf test some text here]]></summary></entry><entry><title type="html">Strong Willie</title><link href="/l1nc0ln/characters/2022/12/11/Character2.html" rel="alternate" type="text/html" title="Strong Willie" /><published>2022-12-11T00:00:00+00:00</published><updated>2022-12-11T00:00:00+00:00</updated><id>/l1nc0ln/characters/2022/12/11/Character2</id><content type="html" xml:base="/l1nc0ln/characters/2022/12/11/Character2.html"><![CDATA[<p><img src="/l1nc0ln/assets/images/willie_strong.png" alt="Character_pic" /></p>
+
+<h2 id="character-history">Character history</h2>
+<p>Character has some common history with <a href="/l1nc0ln/characters/2022/12/11/Character-1.html">character1</a></p>
+
+<h2 id="stats">Stats</h2>
+<p>Warrior <br /></p>
+
+<table>
+<thead>
+  <tr>
+    <th class="th-mu">MU</th>
+    <th class="th-kl">KL</th>
+    <th class="th-in">IN</th>
+    <th class="th-ch">CH</th>
+    <th class="th-ff">FF</th>
+    <th class="th-ge">GE</th>
+    <th class="th-ko">KO</th>
+    <th class="th-kk">KK</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td style="text-align: center">12</td>
+    <td style="text-align: center">10</td>
+    <td style="text-align: center">11</td>
+    <td style="text-align: center">10</td>
+    <td style="text-align: center">11</td>
+    <td style="text-align: center">12</td>
+    <td style="text-align: center">13</td>
+    <td style="text-align: center">13</td>
+  </tr>
+</tbody>
+</table>
+
+<p>Level 2 Execute <br />
+Level 3 Whirlwind <br /></p>]]></content><author><name>L1nc0ln</name></author><category term="characters" /><category term="example" /><category term="character" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/l1nc0ln/assets/images/willie_strong.png" /><media:content medium="image" url="/l1nc0ln/assets/images/willie_strong.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Session 5</title><link href="/l1nc0ln/session/2022/12/11/Session5.html" rel="alternate" type="text/html" title="Session 5" /><published>2022-12-11T00:00:00+00:00</published><updated>2022-12-11T00:00:00+00:00</updated><id>/l1nc0ln/session/2022/12/11/Session5</id><content type="html" xml:base="/l1nc0ln/session/2022/12/11/Session5.html"><![CDATA[<h2 id="year-4523-after-some-event">Year 4523 after some event</h2>
+<p><a href="/l1nc0ln/characters/2022/12/11/Character-1.html">Character1</a> and <a href="/l1nc0ln/characters/2022/12/11/Character2.html">Character2</a> were doing some stuff and found some dwarven ruins:</p>
+
+<p><img src="/l1nc0ln/assets/images/dwarven_ruins.jpg" alt="Dwarven Ruins" /></p>
+
+<p>In a twist of fate some other things happened.</p>
+
+<h2 id="the-next-day">The next day</h2>
+<p>The two characters found the following loot in the temple:</p>
+<ul>
+  <li>A magic sword</li>
+  <li>A rotting corpse</li>
+  <li>Some fancy flying carpet</li>
+  <li>eihserfhsei</li>
+</ul>
+
+<h2 id="filler">Filler</h2>
+
+<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”
+“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”
+“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>]]></content><author><name>L1nc0ln</name></author><category term="session" /><category term="example" /><category term="session" /><summary type="html"><![CDATA[Year 4523 after some event Character1 and Character2 were doing some stuff and found some dwarven ruins:]]></summary></entry></feed>
