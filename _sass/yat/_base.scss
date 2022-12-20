@@ -219,6 +219,24 @@ pre {
 }
 
 /**
+ * Div for the character preview images, makes it so text wraps around the image
+ */
+.characterPreviewImgWrapper {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.characterPreviewTextWrapper {
+  clear: left;
+}
+
+.characterPreviewImg {
+  float: left;
+  max-width: 150px;
+}
+
+/**
  * Wrapper
  */
 .wrapper {

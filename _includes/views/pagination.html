@@ -37,7 +37,6 @@
 
           <!-- TODO  remove this later, here just for testing -->
           {%- assign testCharPic = '/assets/images/willie_strong.png' -%}
-
           <h2 class="post-title">
             <a class="post-link" href="{{ post_url }}">
               {{ post.title | escape }}
@@ -47,8 +46,9 @@
             <span class="post-date"><i class="fa fa-calendar"></i> {{ post.date | date: date_format }}</span>
             <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> {{ reading_time }}</span>
           </div>
+            <div class="characterPreviewImgWrapper">
           {%- if content-type == 'characters' -%}
-          <img src="{{ testCharPic }}" title="charpic" width="200"/>
+              <img src="{{ testCharPic }}" class="characterPreviewImg" title="charpic"/>
           {%- endif -%}
           <a class="post-excerpt" href="{{ post_url }}">
             <p>
@@ -60,6 +60,7 @@
               <a class="post-tag" href="{{ '/tags.html ' | relative_url }}#{{tag}}">#{{tag}}</a>
             {%- endfor -%}
           </div>
+            </div>
         </li>
         {%- endif -%}
       {%- endfor -%}
