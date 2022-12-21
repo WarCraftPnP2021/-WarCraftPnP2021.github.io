@@ -43,7 +43,7 @@
             </a>
           </h2>
           <div class="previewImgWrapper">
-            {%- if content-type == 'characters' and post.image -%}
+            {%- if content-type == 'characters' or content-type == 'gruppencharacter' and post.image -%}
               <!-- set preview image -->
               {%- assign preview-image = post.image -%}
               <img src="{{ preview-image }}" class="previewImg" title="charpic"/>
