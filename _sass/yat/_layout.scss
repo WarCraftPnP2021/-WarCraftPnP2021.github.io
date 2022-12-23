@@ -91,14 +91,9 @@ html {
   }
 }
 
-.site-brand {
+.site-brand, .site-brand-blur {
   line-height: $header-height;
   margin-right: 50px;
-
-  background-color: rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(7px);
-  padding: 2px 10px;
-  border-radius: 8px;
 
   .site-brand-inner {
     @include relative-font-size(1.125);
@@ -118,7 +113,14 @@ html {
   }
 }
 
-.trigger {
+.site-brand-blur {
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(7px);
+  padding: 2px 10px;
+  border-radius: 8px;
+}
+
+.trigger_blur {
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(7px);
     padding: 2px 10px;
