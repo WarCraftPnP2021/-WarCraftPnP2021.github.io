@@ -118,9 +118,11 @@
             <h1 class="page-banner-heading">
               {{ heading | default: page.title | escape }}
             </h1>
-            <h2 class="page-banner-subheading">
-              {{ subheading | default: page.subtitle | escape }}
-            </h2>
+            {%- if subheading != nil and subheading != "" -%}
+              <h2 class="page-banner-subheading">
+                {{ subheading | default: page.subtitle | escape }}
+              </h2>
+            {%- endif -%}
           </div>
         <!-- used so the page-banner-inner div only uses its needed spacing, therefore only blurring the area behind the text -->
         <div style="height:100%; width: 100%"></div>
