@@ -18,7 +18,7 @@
       {%- assign page_paths = site.header_pages | default: default_paths -%}
 
       <!-- if there is a banner, blur the part that covers the site name for better readability in case of clashing banner and text color-->
-      {%- if has_banner -%}
+      {%- if page.banner != "" -%}
         <span class="site-brand-blur">
       {%- else -%}
         <span class="site-brand">
@@ -41,13 +41,13 @@
             {%- for path in page_paths -%}
               {%- assign my_page = site.pages | where: "path", path | first -%}
               {%- if my_page.title -%}
-              <!-- if there is a banner, blur the part that covers the navigation elements for better readability in case of clashing banner and text color-->
-              {%- if has_banner -%}
-                {%- assign link_class = "page-link-blur" -%}
-              {%- else -%}
-                {%- assign link_class = "page-link" -%}
-              {%- endif -%}
-              <a class="{{ link_class }}" href="{{ my_page.url | relative_url }}">{{ my_page.title | upcase | escape }}</a>
+                <!-- if there is a banner, blur the part that covers the navigation elements for better readability in case of clashing banner and text color-->
+                {%- if page.banner != "" -%}
+                  {%- assign page-link-class = "page-link-blur" -%}
+                {%- else -%}
+                  {%- assign page-link-class = "page-link" -%}
+                {%- endif -%}
+                <a class="{{ page-link-class }}" href="{{ my_page.url | relative_url }}">{{ my_page.title | upcase | escape }}</a>
               {%- endif -%}
             {%- endfor -%}
 

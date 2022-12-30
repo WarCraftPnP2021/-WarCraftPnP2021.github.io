@@ -114,12 +114,23 @@
 
         {%- else -%}
 
+        {%- if page.banner != "" -%}
+          {%- assign banner-heading-class = "page-banner-heading-blurred" -%}
+        {%- else -%}
+          {%- assign banner-heading-class = "page-banner-heading" -%}
+        {%- endif -%}
+        {%- if page.banner != "" -%}
+          {%- assign banner-subheading-class = "page-banner-subheading-blurred" -%}
+        {%- else -%}
+          {%- assign banner-subheading-class = "page-banner-subheading" -%}
+        {%- endif -%}
+
           <div class="page-banner-default">
-            <h1 class="page-banner-heading">
+            <h1 class="{{ banner-heading-class }}">
               {{ heading | default: page.title | escape }}
             </h1>
             {%- if subheading != nil and subheading != "" -%}
-              <h2 class="page-banner-subheading">
+              <h2 class="{{ banner-subheading-class }}">
                 {{ subheading | default: page.subtitle | escape }}
               </h2>
             {%- endif -%}
