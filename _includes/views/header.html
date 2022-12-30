@@ -37,16 +37,17 @@
             </span>
           </label>
 
-          <!-- if there is a banner, blur the part that covers the navigation elements for better readability in case of clashing banner and text color-->
-          {%- if has_banner -%}
-            <div class="trigger_blur">
-          {%- else -%}
             <div class="trigger">
-          {%- endif -%}
             {%- for path in page_paths -%}
               {%- assign my_page = site.pages | where: "path", path | first -%}
               {%- if my_page.title -%}
-              <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | upcase | escape }}</a>
+              <!-- if there is a banner, blur the part that covers the navigation elements for better readability in case of clashing banner and text color-->
+              {%- if has_banner -%}
+                {%- assign link_class = "page-link-blur" -%}
+              {%- else -%}
+                {%- assign link_class = "page-link" -%}
+              {%- endif -%}
+              <a class="{{ link_class }}" href="{{ my_page.url | relative_url }}">{{ my_page.title | upcase | escape }}</a>
               {%- endif -%}
             {%- endfor -%}
 
